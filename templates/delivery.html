@@ -1,0 +1,120 @@
+{% extends "base_maket.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{url_for('styles', path='delivery.css')}}">
+{% endblock %}
+
+{% block content %}
+    <section class="bread-crumbs">
+        <div class="container">
+            <div class="bread-crumbs__wrapper">
+                <ul class="bread-crumbs__list">
+                    <li class="bread-crumbs__item">
+                        <a class="bread-crumbs__link" href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="bread-crumbs__item">
+                        <a class="bread-crumbs__link" href="#">
+                            Мои заказы
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery__wrapper">
+                <div class="delivery__filter-case">
+
+                    <section class="tabs-container">
+                        <label for="tab1"> Текущие заказы </label>
+                        <label for="tab2"> История заказов </label>
+<!--                        <label for="tab3"> Адрес доставки </label>-->
+                    </section>
+
+                    <input name="tab" id="tab1" type="radio" checked />
+                    <section class="tab-content">
+                        <h2>Текущие заказы</h2>
+                        <!-- <p class="table-content"> У Вас пока нет заказов</p> -->
+                        <div class="container">
+                            <div class="table-responsive">
+                                <table class="table-bordered">
+                                    <thead>
+                                        <tr class="table-title">
+                                            <th>Номер заказа</th>
+                                            <th>Название</th>
+                                            <th>Время заказа</th>
+                                            <th>Количество</th>
+                                            <th>Сумма заказа</th>
+                                            <th>Оплата</th>
+                                            <th>Статус</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    {% for ordering in active_orderings %}
+                                        <tr class="table-data">
+                                            <td>
+                                                <a href="#" class="btn-data">{{ordering.id}}</a>
+                                            </td>
+                                            <td>{{ordering.item}}</td>
+                                            <td>{{ordering.timestamp}}</td>
+                                            <td>{{ordering.amount}}</td>
+                                            <td type="text">{{ordering.price * ordering.amount}} руб.</td>
+                                            <td>Оплачен</td>
+                                            <td>{{ordering.status}}</td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <input name="tab" id="tab2" type="radio" />
+                    <section class="tab-content">
+                        <h2> История заказов </h2>
+                        <!-- <p class="table-content"> У Вас пока нет выполненных заказов</p> -->
+                        <div class="table-responsive">
+                            <table class="table-bordered">
+                                <thead>
+                                    <tr class="table-title">
+                                        <th>Номер заказа</th>
+                                        <th>Название</th>
+                                        <th>Время заказа</th>
+                                        <th>Количество</th>
+                                        <th>Сумма заказа</th>
+                                        <th>Оплата</th>
+                                        <th>Статус</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for ordering in orderings %}
+                                    <tr class="table-data">
+                                        <td>
+                                            <a href="#" class="btn-data">{{ordering.id}}</a>
+                                        </td>
+                                        <td>{{ordering.item}}</td>
+                                        <td>{{ordering.timestamp}}</td>
+                                        <td>{{ordering.amount}}</td>
+                                        <td type="text">{{ordering.price * ordering.amount}} руб.</td>
+                                        <td>Оплачен</td>
+                                        <td>{{ordering.status}}</td>
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{url_for('scripts', path='delivery.js')}}"></script>
+{% endblock %}

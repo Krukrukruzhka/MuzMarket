@@ -1,0 +1,179 @@
+{% extends "base_maket.html" %}
+
+{% block head %}
+{% endblock %}
+
+{% block content %}
+    <section class="bread-crumbs">
+        <div class="container">
+            <div class="bread-crumbs__wrapper">
+                <ul class="bread-crumbs__list">
+                    <li class="bread-crumbs__item">
+                        <a class="bread-crumbs__link" href="#">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="bread-crumbs__item">
+                        <a class="bread-crumbs__link" href="#">
+                            Категории
+                        </a>
+                    </li>
+                </ul>
+                <!-- <div class="top__filter-position">
+                    <div class="top__filter-position-quantity-box">
+                        <p class="top__filter-position-text">
+                            Показывать по:
+                        </p>
+                        <select class="top__filter-position-quantity">
+                            <option class="top__filter-position-quantity-item" value="15">15</option>
+                            <option class="top__filter-position-quantity-item" value="9">9</option>
+                        </select>
+                    </div>
+                    <div class="top__filter-position-box">
+                        <div class="top__filter-position-img-net top__filter-position-img-net--active">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.9994 1L2.9998 1.006C2.46942 1.006 1.96076 1.21671 1.58573 1.59179C1.21069 1.96686 1 2.47557 1 3.006V7C1.00012 7.49017 1.18023 7.96323 1.50613 8.32935C1.83202 8.69547 2.28101 8.92914 2.76782 8.986L3.0038 9L7.0034 8.994C7.53343 8.99347 8.04158 8.78252 8.41618 8.40751C8.79078 8.03249 9.0012 7.52409 9.0012 6.994V3.002C9.00157 2.51148 8.82168 2.03793 8.49574 1.6714C8.1698 1.30486 7.72053 1.0709 7.23338 1.014L6.9994 1ZM18.9982 1L14.9986 1.006C14.4682 1.006 13.9596 1.21671 13.5845 1.59179C13.2095 1.96686 12.9988 2.47557 12.9988 3.006V7C12.9989 7.49017 13.179 7.96323 13.5049 8.32935C13.8308 8.69547 14.2798 8.92914 14.7666 8.986L15.0026 9L19.0022 8.994C19.5322 8.99347 20.0404 8.78252 20.415 8.40751C20.7896 8.03249 21 7.52409 21 6.994V3.002C21.0004 2.51148 20.8205 2.03793 20.4945 1.6714C20.1686 1.30486 19.7193 1.0709 19.2322 1.014L18.9982 1ZM6.9994 13L2.9998 13.006C2.46942 13.006 1.96076 13.2167 1.58573 13.5918C1.21069 13.9669 1 14.4756 1 15.006V19C1.00012 19.4902 1.18023 19.9632 1.50613 20.3293C1.83202 20.6955 2.28101 20.9291 2.76782 20.986L3.0038 21L7.0034 20.994C7.53343 20.9935 8.04158 20.7825 8.41618 20.4075C8.79078 20.0325 9.0012 19.5241 9.0012 18.994V15.002C9.00157 14.5115 8.82168 14.0379 8.49574 13.6714C8.1698 13.3049 7.72053 13.0709 7.23338 13.014L6.9994 13ZM18.9982 13L14.9986 13.006C14.4682 13.006 13.9596 13.2167 13.5845 13.5918C13.2095 13.9669 12.9988 14.4756 12.9988 15.006V19C12.9989 19.4902 13.179 19.9632 13.5049 20.3293C13.8308 20.6955 14.2798 20.9291 14.7666 20.986L15.0026 21L19.0022 20.994C19.5322 20.9935 20.0404 20.7825 20.415 20.4075C20.7896 20.0325 21 19.5241 21 18.994V15.002C21.0004 14.5115 20.8205 14.0379 20.4945 13.6714C20.1686 13.3049 19.7193 13.0709 19.2322 13.014L18.9982 13Z"
+                                    stroke="#4B4B4B" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="top__filter-position-img-list">
+                            <svg width="27" height="20" viewBox="0 0 27 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.0007 20H7.00065V16.6667H27.0007V20ZM3.66732 20H0.333984V16.6667H3.66732V20ZM27.0007 11.6667H7.00065V8.33333H27.0007V11.6667ZM3.66732 11.6667H0.333984V8.33333H3.66732V11.6667ZM27.0007 3.33333H7.03898V0H27.0007V3.33333ZM3.66732 3.33333H0.333984V0H3.66732V3.33333Z"
+                                    fill="#4B4B4B" />
+                            </svg>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="basic">
+            <div class="container">
+                <div class="basic__wrapper">
+                    <div class="basic__filter-case">
+                        <div class="flter-case__top">
+                            <h2 class="filter-case__title">
+                                Каталог
+                            </h2>
+                        </div>
+                        <input class="filter-case__search" type="text" placeholder="Поиск по каталогу">
+                        {% for category_title in categories %}
+                        <div class="filter-case__info-box1">
+                            <h2 class="filter-case__info-box-top1">
+                                {{category_title}}
+                            </h2>
+                            <div class="filter-case__info-wrapper1">
+                                <ul class="filter-case__check-box1">
+                                    {% for subcategory in categories[category_title] %}
+                                    <li class="filter-case__cheking-box1">
+                                        <a class="filter-case__cheking-box-text1" href={{"/catalog/"+subcategory.endpoint}}>
+                                            {{subcategory.title}}
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="product">
+                        <div class="product__net-box">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1 / 3</div>
+                                    <img src="{{url_for('icons', path='img1.jpg')}}" style="width:100%">
+                                    <!-- <div class="text">Caption Text</div> -->
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2 / 3</div>
+                                    <img src="{{url_for('icons', path='img2.jpg')}}" style="width:100%">
+                                    <!-- <div class="text">Caption Two</div> -->
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3 / 3</div>
+                                    <img src="{{url_for('icons', path='img4.jpg')}}" style="width:100%">
+                                    <!-- <div class="text">Caption Three</div> -->
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                </div>
+                            </div>
+                            <h2 class="product-title" href="#">
+                                Популярные товары
+                            </h2>
+                            <div class="product-net">
+                                {% for item in items %}
+                                <div class="product__item-box">
+                                    <img class="product__img-box-favorites" src="{{url_for('icons', path='favorites.svg')}}" alt=" Избранное">
+                                    <div class="product__img-box">
+                                        <img class="product__img-box-bg" src="{{url_for('instrument_images', path=item.article+'.jpg')}}" alt="Гитара">
+                                    </div>
+                                    <div class="box">
+                                        <div class="product__item-body">
+                                            <a class="product__item-title" href={{"catalog/" + item.endpoint+"/"+item.article}}>
+                                                {{item.subcategory}}
+                                            </a>
+                                            <p class="product__vendor-code">
+                                                Арт: {{item.article}}
+                                            </p>
+                                            <p class="product__description">
+                                                {{item.title}}
+                                            </p>
+                                        </div>
+                                        <div class="product__item-botton-list">
+                                            <div class="product__item-price-box-list">
+                                                <div class="product__new-price-box">
+                                                    <p class="product__new-price">
+                                                        {{item.price}}
+                                                    </p>
+                                                    <img class="product__rub-img" src="{{url_for('icons', path='rub-img.svg')}}"
+                                                        alt="Рубль">
+                                                    <span class="dividing-line">/</span>
+                                                </div>
+                                            </div>
+                                            <div class="product__img-basket-wrapper">
+                                                <p class="product__img-wrapper-text-list">
+                                                    В корзину
+                                                </p>
+                                                <img class="product__img-basket" src="{{url_for('icons', path='product-basket.svg')}}"
+                                                    alt="Корзина">
+                                            </div>
+                                            <div class="rating">
+                                                <img class="rating-img" src="{{url_for('icons', path='star-sharp.svg')}}"
+                                                    style="width: 8%" alt="Звезда">
+                                                <p class="estimation">{{item.rate}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <div class="container">
+                                <div id="change"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{url_for('scripts', path='adSlider.js')}}"></script>
+{% endblock %}
