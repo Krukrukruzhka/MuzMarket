@@ -1,0 +1,167 @@
+[
+    {
+        "title": "Гитары",
+        "subcategories": [
+            {
+                "title": "Акустические гитары",
+                "endpoint": "acoustic_guitar",
+                "href": "https://www.muztorg.ru/category/akusticheskie-gitary"
+            },
+            {
+                "title": "Электрогитары",
+                "endpoint": "electro_guitar",
+                "href": "https://www.muztorg.ru/category/elektrogitary"
+            },
+            {
+                "title": "Классические гитары",
+                "endpoint": "classic_guitar",
+                "href": "https://www.muztorg.ru/category/klassicheskie-gitary"
+            },
+            {
+                "title": "Бас-гитары",
+                "endpoint": "bass_guitar",
+                "href": "https://www.muztorg.ru/category/bas-gitary"
+            }
+        ]
+    },
+    {
+        "title": "Клавишные",
+        "subcategories": [
+            {
+                "title": "Синтезаторы",
+                "endpoint": "synthesizer",
+                "href": "https://www.muztorg.ru/category/sintezatory"
+            },
+            {
+                "title": "Цифровые пианино",
+                "endpoint": "electro_piano",
+                "href": "https://www.muztorg.ru/category/czifrovye-pianino"
+            },
+            {
+                "title": "Акустические клавишные инструменты",
+                "endpoint": "acoustic_piano",
+                "href": "https://www.muztorg.ru/category/akusticheskie-klavishnye-instrumenty"
+            },
+            {
+                "title": "MIDI-клавиатуры",
+                "endpoint": "midi",
+                "href": "https://www.muztorg.ru/category/midi-klaviatury"
+            }
+        ]
+    },
+    {
+        "title": "Ударные",
+        "subcategories": [
+            {
+                "title": "Акустические ударные",
+                "endpoint": "acoustic_percussion",
+                "href": "https://www.muztorg.ru/category/akusticheskie-udarnye"
+            },
+            {
+                "title": "Электронные ударные",
+                "endpoint": "electro_percussion",
+                "href": "https://www.muztorg.ru/category/elektronnye-udarnye"
+            },
+            {
+                "title": "Перкуссия",
+                "endpoint": "percussion",
+                "href": "https://www.muztorg.ru/category/perkussiya"
+            }
+        ]
+    },
+    {
+        "title": "Смычковые",
+        "subcategories": [
+            {
+                "title": "Скрипки",
+                "endpoint": "violin",
+                "href": "https://www.muztorg.ru/category/skripki"
+            },
+            {
+                "title": "Альты",
+                "endpoint": "viola",
+                "href": "https://www.muztorg.ru/category/alty"
+            },
+            {
+                "title": "Виолончели",
+                "endpoint": "cello",
+                "href": "https://www.muztorg.ru/category/violoncheli"
+            },
+            {
+                "title": "Контрабасы",
+                "endpoint": "contrabass",
+                "href": "https://www.muztorg.ru/category/kontrabasy"
+            }
+        ]
+    },
+    {
+        "title": "Духовые",
+        "subcategories": [
+            {
+                "title": "Флейты",
+                "endpoint": "flute",
+                "href": "https://www.muztorg.ru/category/flejty"
+            },
+            {
+                "title": "Саксофоны",
+                "endpoint": "saxophone",
+                "href": "https://www.muztorg.ru/category/saksofony"
+            },
+            {
+                "title": "Кларнеты",
+                "endpoint": "clarinet",
+                "href": "https://www.muztorg.ru/category/klarnety"
+            },
+            {
+                "title": "Трубы",
+                "endpoint": "trumpet",
+                "href": "https://www.muztorg.ru/category/truby"
+            },
+            {
+                "title": "Тромбоны",
+                "endpoint": "trombone",
+                "href": "https://www.muztorg.ru/category/trombony"
+            },
+            {
+                "title": "Тубы",
+                "endpoint": "tuba",
+                "href": "https://www.muztorg.ru/category/tuby"
+            }
+        ]
+    },
+    {
+        "title": "Аккордеоны, баяны, гармони",
+        "subcategories": [
+            {
+                "title": "Аккордеоны",
+                "endpoint": "accordion",
+                "href": "https://www.muztorg.ru/category/akkordeony"
+            },
+            {
+                "title": "Баяны",
+                "endpoint": "bayan",
+                "href": "https://www.muztorg.ru/category/bayany"
+            },
+            {
+                "title": "Гармони",
+                "endpoint": "harmonica",
+                "href": "https://www.muztorg.ru/category/garmoni"
+            }
+        ]
+    },
+    {
+        "title": "Микрофоны и радиосистемы",
+        "subcategories": [
+            {
+                "title": "Микрофоны",
+                "endpoint": "microphone",
+                "href": "https://www.muztorg.ru/category/mikrofony"
+            },
+            {
+                "title": "Радиосистемы",
+                "endpoint": "radio_system_of_a_down",
+                "href": "https://www.muztorg.ru/category/radiosistemy"
+            }
+        ]
+    }
+]
